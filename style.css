@@ -14,13 +14,17 @@ html {
     filter: grayscale(2) contrast(1);
 }
 
-body {
+.body-color {
     margin: 0;
     background:
         radial-gradient(rgba(255, 255, 255, 0) 50%, #FFF749),
         radial-gradient(rgba(255, 255, 255, 0) 20%, #24B6CA);
     background-color: rgb(255, 255, 255);
     font-family: sans-serif;
+}
+
+.body-color-gray {
+    background: lightgray;
 }
 
 .access {
@@ -64,7 +68,7 @@ body {
 }
 
 .mainHeader {
-    font-family: cursive;
+    font-family: sans-serif;
     color: #004862;
     text-align: center;
     text-transform: uppercase;
@@ -86,7 +90,7 @@ body {
 
 
 .secondary-header {
-    font-family: cursive;
+    font-family: sans-serif;
     text-align: center;
     font-size: 36px;
     text-transform: uppercase;
@@ -95,7 +99,7 @@ body {
 }
 
 .tertiary-header {
-    font-family: cursive;
+    font-family: sans-serif;
     text-transform: uppercase;
     background-color: #24B6CA;
     color: #004862;
@@ -124,7 +128,7 @@ body {
     border-radius: 10px;
     font-size: 16px;
     font-weight: bold;
-    font-family: cursive;
+    font-family: sans-serif;
     color: rgb(255, 255, 255);
 
 }

@@ -65,11 +65,14 @@ moreButtonFour.addEventListener("click", () => {
 
 //theme
 let changeThemeButton = document.querySelector(".button-theme");
+let changeThemeElementBody = document.querySelector(".body-color");
 let changeThemeElement = document.querySelector("html");
 
 
 changeThemeButton.addEventListener("click", () => {
     changeThemeElement.classList.toggle("grayscale");
+    changeThemeElementBody.classList.toggle("body-color-gray");
+
 });
 
 //access
