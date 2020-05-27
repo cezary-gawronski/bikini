@@ -1,0 +1,152 @@
+html {
+    box-sizing: border-box;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+.grayscale {
+    filter: grayscale(2) contrast(1);
+}
+
+body {
+    margin: 0;
+    background:
+        radial-gradient(rgba(255, 255, 255, 0) 50%, #FFF749),
+        radial-gradient(rgba(255, 255, 255, 0) 20%, #24B6CA);
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+.access {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    padding: 40px;
+
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #FFF749;
+
+    background: url(https://seachili.com/wp-content/uploads/2019/08/MIXmeret.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #05519B;
+}
+
+.float {
+    display: flow-root;
+
+}
+
+.special-strong {
+    font-weight: bolder;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #24B6CA;
+}
+
+.mainHeader {
+    font-family: cursive;
+    color: #004862;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+
+.main-image {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.images {
+    float: left;
+    width: 180px;
+    margin-right: 20px;
+}
+
+
+.secondary-header {
+    font-family: cursive;
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    background-color: #05519B;
+    color: white;
+}
+
+.tertiary-header {
+    font-family: cursive;
+    text-transform: uppercase;
+    background-color: #24B6CA;
+    color: #004862;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.paragraph {
+    line-height: 1.8;
+}
+
+.more-paragraph {
+    display: none;
+}
+
+.more-paragraph-open {
+    display: unset;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    background-color: #05519B;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+
+}
+
+.button:hover {
+    background-color: #004862;
+}
+
+.button-container {
+    text-align: right;
+}
+
+.button-container-center {
+    text-align: center;
+}
+
+.button-access {
+    background-color: #FFF749;
+    color: #05519B;
+    display: inline-block;
+}
+
+.newClass {
+    background-color: red;
+}
